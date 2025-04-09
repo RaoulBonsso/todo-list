@@ -117,7 +117,7 @@ export default function Home() {
 
         {tasks.length === 0 && (
           <p className="text-center text-muted-foreground mt-8">
-            Aucune tâche pour le moment. Ajoutez-en une !
+             🎉 Aucune tâche pour le moment. Ajoutez-en une ! 🚀
           </p>
         )}
       </div>
