@@ -109,7 +109,7 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-b from-background to-secondary transition-colors duration-500">
       <div className="max-w-3xl mx-auto p-6">
         <div className="flex justify-between items-center mb-8">
-          <h1 className="text-4xl font-bold text-primary">Ma Liste de Tâches</h1>
+          <h1 className="text-4xl font-bold text-primary">✅ Ma Liste de Tâches 📝</h1>
           <button
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             className="p-2 rounded-full hover:bg-secondary transition-colors"
@@ -146,7 +146,7 @@ export default function Home() {
 
         {tasks.length === 0 && (
           <p className="text-center text-muted-foreground mt-8">
-            Aucune tâche pour le moment. Ajoutez-en une !
+             🎉 Aucune tâche pour le moment. Ajoutez-en une ! 🚀
           </p>
         )}
       </div>
